@@ -3,7 +3,7 @@ package groupassignment2;
 import java.util.Stack;
 
 public class UndoRedoManager {
-    private Stack<String> undo;
+    private Stack<String> und;
     private Stack<String> redo;
 
     public UndoRedoManager() {
