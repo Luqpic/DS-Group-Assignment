@@ -3,13 +3,9 @@ package groupassignment2;
 import java.util.Stack;
 
 public class UndoRedoManager {
-    private Stack<String> undo;
-    private Stack<String> redo;
+    private Stack<String> undo = new Stack<>();
+    private Stack<String> redo = new Stack<>();
 
-    public UndoRedoManager() {
-        undo = new Stack<>();
-        redo = new Stack<>();
-    }
 
     public void perform(String action) {
         // Add action to undo stack
